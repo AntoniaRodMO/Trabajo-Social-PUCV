@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+.semestre {
+  margin-bottom: 2rem;
+}
+
+.ramo {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 0.7rem;
+  margin: 0.5rem 0;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.ramo:hover {
+  background-color: #eef;
+}
+
+.detalle {
+  display: none;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  background: #eef;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
