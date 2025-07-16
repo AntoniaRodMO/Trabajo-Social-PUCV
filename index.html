@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Malla Trabajo Social</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Malla de Trabajo Social</h1>
+
+  <div class="semestre">
+    <h2>1° Semestre</h2>
+    <div class="ramo" onclick="toggleDetalle(this)">
+      Antropología Cultural
+      <div class="detalle">Créditos: 5 | Requisito: ninguno</div>
+    </div>
+    <div class="ramo" onclick="toggleDetalle(this)">
+      Psicología General
+      <div class="detalle">Créditos: 5 | Requisito: ninguno</div>
+    </div>
+  </div>
+
+  <div class="semestre">
+    <h2>2° Semestre</h2>
+    <div class="ramo" onclick="toggleDetalle(this)">
+      Trabajo Social I
+      <div class="detalle">Créditos: 6 | Requisito: Psicología General</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
